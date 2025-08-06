@@ -1,6 +1,8 @@
-package blogrender
+package post
 
-import "strings"
+import (
+	"strings"
+)
 
 type Post struct {
 	Title, Description, Body string
